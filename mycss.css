@@ -1,0 +1,122 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+body{
+	padding-right: 2.5%;
+	padding-left: 2.5%;
+	width: 95%;
+	height: 100%;
+	background-color: black;
+	color: #FBAD00;
+	font-size: 1em;
+	font-family: "Segoe UI", sans-serif;
+	line-height: 110%;
+}
+
+h4{padding: 4px; font-size: 1.5em;}
+
+h2{
+	font-size: 2.5em;
+	text-align: center;
+	color: #FBAD00;
+}
+
+a{
+	color: white;
+	text-decoration-line: none;
+	transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-webkit-transition: all.6s ease;
+	-ms-transition: all.13s ease;
+}
+
+a:hover {
+	color: yellow;
+	text-decoration-line: none;
+	transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-webkit-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+}
+
+a:active{color:blue;}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+
+img{
+	margin: 0;
+	padding: 0;
+	margin-right: 10px;
+	max-width: 100%;
+	height: auto;
+	width: auto/9;
+}
+
+header, footer{
+	
+	width: 100%;
+	min-height: 90px;
+}
+
+header{
+	padding-top: 10px;
+	border-bottom:  2px solid silver;
+	border-bottom-color: orange;
+}
+
+footer{
+	color: white;
+	padding:3px;
+	border: 2px solid silver;
+	margin-top: 5px;
+	padding-bottom: 2%; 
+}
+
+html{height: 100%;}
+
+footer, #page-wrap : after{height: 5px;}
+
+#page-wrap: after{
+	content: "";
+	display: block;
+}
+
+#page-wrap{
+	min-height: 200%;
+	margin-bottom: -5px; 
+
+}
+
+.left{float: left;}
+.rigth{float: right;}
+.center{text-align: center;}
+.namealboms{
+	border: 2px solid #CBBC99;
+	border-radius: 6px;
+	border-width: thick;
+	margin-top: 2px;
+
+}
+
+#we{
+ 	padding-right: 2px; 
+	width: 19%;
+	align-content: left;
+}
+
+#alboms{
+	padding-left: 2px; 
+	width: 79%;
+	align-content: right;
+}
+
+::selection{background-color: red; color:yellow;};
+::-moz-selection{background-color: red; color:yellow;};
+::-webkit-selection{background-color: red; color:yellow;};
+::-ms-selection{background-color: red; color:yellow;};
